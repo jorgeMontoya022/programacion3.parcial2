@@ -28,9 +28,9 @@ public class PersistenciaUtil {
                 // Parsear los datos y crear el estudiante
                 String codigo = datos[0];
                 String nombre = datos[1];
-                int nota1 = Integer.parseInt(datos[2]);
-                int nota2 = Integer.parseInt(datos[3]);
-                int nota3 = Integer.parseInt(datos[4]);
+                double nota1 = Double.parseDouble(datos[2]);
+                double nota2 =  Double.parseDouble(datos[3]);
+                double nota3 =  Double.parseDouble(datos[4]);
 
                 Estudiante estudiante = new Estudiante(codigo, nombre, nota1, nota2, nota3);
                 listaEstudiantes.add(estudiante);

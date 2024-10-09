@@ -161,11 +161,12 @@ public class EstudianteViewController {
         return new EstudianteBuilder()
                 .nombre(txtNombre.getText())
                 .codigo(txtCódigo.getText())
-                .nota1(Integer.parseInt(txtNota1.getText()))
-                .nota2(Integer.parseInt(txtNota2.getText()))
-                .nota3(Integer.parseInt(txtNota3.getText()))
+                .nota1(Double.parseDouble(txtNota1.getText()))
+                .nota2(Double.parseDouble(txtNota2.getText()))
+                .nota3(Double.parseDouble(txtNota3.getText()))
                 .build();
     }
+
 
     private boolean validarFormulario() {
         return !txtNombre.getText().isEmpty()

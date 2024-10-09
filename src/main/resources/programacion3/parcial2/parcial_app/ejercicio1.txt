@@ -1,3 +1,6 @@
-1097032932@Jorge William Montoya@3@4@2
-109230234@Luis herrera Moncae@5@4@2
-14554636@Juan Alfaro @5@3@1
+1097032932@Jorge William Montoya@3.0@4@2.0
+109230234@Luis herrera Moncae@5.0@4.0@2.0
+14554636@Juan Alfaro @5.0@3.0@1.0
+104029344@Samuel Castaño@5.0@3.0@4.0
+1393243424@Jaimito el cartero@3.5@4.3@2.8
+109830223@Sebastian Torres@3.3@2.8@5.0

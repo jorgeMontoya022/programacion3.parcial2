@@ -7,9 +7,9 @@ public class EstudianteBuilder implements IBuilder<Estudiante>{
     private static final long serialVersionUID = 1L;
     private String codigo;
     private String nombre;
-    private int nota1;
-    private int nota2;
-    private int nota3;
+    private double nota1;
+    private double nota2;
+    private double nota3;
 
     public EstudianteBuilder codigo(String codigo){
         this.codigo = codigo;
@@ -21,17 +21,17 @@ public class EstudianteBuilder implements IBuilder<Estudiante>{
         return this;
     }
 
-    public EstudianteBuilder nota1(int nota1){
+    public EstudianteBuilder nota1(double nota1){
         this.nota1 = nota1;
         return this;
     }
 
-    public EstudianteBuilder nota2(int nota2){
+    public EstudianteBuilder nota2(double nota2){
         this.nota2 = nota2;
         return this;
     }
 
-    public EstudianteBuilder nota3(int nota3){
+    public EstudianteBuilder nota3(double nota3){
         this.nota3 = nota3;
         return this;
     }
