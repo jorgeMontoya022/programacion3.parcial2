@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="440.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="programacion3.parcial2.parcial_app.ejercicio1.viewController.EstudianteViewController">
+   <children>
+      <SplitPane dividerPositions="0.3597560975609756" layoutX="-3.0" layoutY="-1.0" orientation="VERTICAL" prefHeight="440.0" prefWidth="600.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="400.0" prefWidth="600.0">
+               <children>
+                  <TextField fx:id="txtNombre" layoutX="99.0" layoutY="41.0" prefHeight="25.0" prefWidth="207.0" promptText="Nombre del estudiante" />
+                  <Label layoutX="49.0" layoutY="45.0" text="Nombre: " />
+                  <Label layoutX="325.0" layoutY="45.0" text="Código: " />
+                  <TextField fx:id="txtCódigo" layoutX="370.0" layoutY="41.0" promptText="Código del estudiante" />
+                  <Label layoutX="49.0" layoutY="102.0" text="Nota 1: " />
+                  <TextField fx:id="txtNota1" layoutX="99.0" layoutY="98.0" prefHeight="25.0" prefWidth="84.0" />
+                  <Label layoutX="213.0" layoutY="102.0" text="Nota 2: " />
+                  <TextField fx:id="txtNota2" layoutX="263.0" layoutY="98.0" prefHeight="25.0" prefWidth="84.0" />
+                  <Label layoutX="385.0" layoutY="102.0" text="Nota 3: " />
+                  <TextField fx:id="txtNota3" layoutX="435.0" layoutY="98.0" prefHeight="25.0" prefWidth="84.0" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="400.0" prefWidth="600.0">
+               <children>
+                  <TextField fx:id="txtFilter" alignment="CENTER" layoutX="86.0" layoutY="14.0" prefHeight="25.0" prefWidth="439.0" promptText="filtrar por código" />
+                  <TableView fx:id="tableEstudiante" layoutX="47.0" layoutY="91.0" prefHeight="171.0" prefWidth="503.0">
+                    <columns>
+                      <TableColumn fx:id="tcNombre" prefWidth="181.99996948242188" text="Nombre" />
+                      <TableColumn fx:id="tcCódigo" prefWidth="93.33331298828125" text="Código" />
+                        <TableColumn fx:id="tcNota1" prefWidth="78.66668701171875" text="nota 1" />
+                        <TableColumn fx:id="tcNota2" prefWidth="75.33331298828125" text="Nota 2" />
+                        <TableColumn fx:id="tcNota3" prefWidth="76.66668701171875" text="nota 3" />
+                    </columns>
+                  </TableView>
+                  <Button layoutX="343.0" layoutY="50.0" mnemonicParsing="false" onAction="#onAgregar" text="Agregar" />
+                  <Button layoutX="195.0" layoutY="50.0" mnemonicParsing="false" onAction="#onLimpiarCampos" text="Limpiar" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
