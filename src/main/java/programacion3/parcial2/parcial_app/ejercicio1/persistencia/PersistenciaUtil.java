@@ -10,6 +10,7 @@ public class PersistenciaUtil {
     public static final String ESTUDIANTES_FILE_PATH = "src/main/resources/programacion3/parcial2/parcial_app/ejercicio1.txt";
     public static final String ESTUDIANTES_LOG_PATH = "src/main/resources/programacion3/parcial2/parcial_app/logEjercicio1";
 
+
     public List<Estudiante> cargarEstudiantes() throws IOException {
         String rutaArchivo = ESTUDIANTES_FILE_PATH;
         List<String> contenido = ArchivoUtil.leerArchivo(rutaArchivo);

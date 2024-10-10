@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="21.0.2" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="programacion3.parcial2.parcial_app.ejercicio2.model.Programa">
+    <void property="adscrito">
+     <string>Universidad del Quindío</string>
+    </void>
+    <void property="codigo">
+     <string>0384</string>
+    </void>
+    <void property="modalidad">
+     <string>Presencial</string>
+    </void>
+    <void property="nombre">
+     <string>Ingeniería de sistemas </string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="programacion3.parcial2.parcial_app.ejercicio2.model.Programa">
+    <void property="adscrito">
+     <string>Universidad del Quindío</string>
+    </void>
+    <void property="codigo">
+     <string>8372</string>
+    </void>
+    <void property="modalidad">
+     <string>Distancia</string>
+    </void>
+    <void property="nombre">
+     <string>Ingeniería electronica</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="programacion3.parcial2.parcial_app.ejercicio2.model.Programa">
+    <void property="adscrito">
+     <string>Universidad del Quindío</string>
+    </void>
+    <void property="codigo">
+     <string>9383</string>
+    </void>
+    <void property="modalidad">
+     <string>Distancia</string>
+    </void>
+    <void property="nombre">
+     <string>Administración de empresas</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="programacion3.parcial2.parcial_app.ejercicio2.model.Programa">
+    <void property="adscrito">
+     <string>Universidad del Quindío</string>
+    </void>
+    <void property="codigo">
+     <string>0293</string>
+    </void>
+    <void property="modalidad">
+     <string>Presencial</string>
+    </void>
+    <void property="nombre">
+     <string>Filosofía</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="programacion3.parcial2.parcial_app.ejercicio2.model.Programa">
+    <void property="adscrito">
+     <string>Universidad del Quindío</string>
+    </void>
+    <void property="codigo">
+     <string>8323</string>
+    </void>
+    <void property="modalidad">
+     <string>Presencial</string>
+    </void>
+    <void property="nombre">
+     <string>Ingeniería civil</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
