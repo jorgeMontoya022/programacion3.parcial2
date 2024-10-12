@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="21.0.2" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="programacion3.parcial2.parcial_app.ejercicio4Restaurante.model.Pedido" id="Pedido0">
+    <void property="clienteAsociado">
+     <object class="programacion3.parcial2.parcial_app.ejercicio4Restaurante.model.Cliente">
+      <void property="apellido">
+       <string>Arango Muñoz</string>
+      </void>
+      <void property="codigo">
+       <string>C001</string>
+      </void>
+      <void property="documento">
+       <string>17362134123</string>
+      </void>
+      <void property="nombre">
+       <string>Juan Luis</string>
+      </void>
+      <void property="telefono">
+       <string>3216723632</string>
+      </void>
+      <void property="tipoDocumento">
+       <string>CC</string>
+      </void>
+     </object>
+    </void>
+    <void property="fecha">
+     <object class="java.time.LocalDate" method="of">
+      <int>2024</int>
+      <int>10</int>
+      <int>12</int>
+     </object>
+    </void>
+    <void property="listaProductos">
+     <void method="add">
+      <object class="programacion3.parcial2.parcial_app.ejercicio4Restaurante.model.Producto">
+       <void property="codigo">
+        <string>P001</string>
+       </void>
+       <void property="nombre">
+        <string>Pizza</string>
+       </void>
+       <void property="precio">
+        <double>6000.0</double>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void property="total">
+     <double>6000.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="programacion3.parcial2.parcial_app.ejercicio4Restaurante.model.Pedido" id="Pedido1">
+    <void property="clienteAsociado">
+     <object class="programacion3.parcial2.parcial_app.ejercicio4Restaurante.model.Cliente">
+      <void property="apellido">
+       <string>Toro</string>
+      </void>
+      <void property="codigo">
+       <string>C004</string>
+      </void>
+      <void property="documento">
+       <string>1027342397</string>
+      </void>
+      <void property="nombre">
+       <string>Marleni</string>
+      </void>
+      <void property="telefono">
+       <string>32183873322</string>
+      </void>
+      <void property="tipoDocumento">
+       <string>CC</string>
+      </void>
+     </object>
+    </void>
+    <void property="fecha">
+     <object class="java.time.LocalDate" method="of">
+      <int>2024</int>
+      <int>10</int>
+      <int>12</int>
+     </object>
+    </void>
+    <void property="listaProductos">
+     <void method="add">
+      <object class="programacion3.parcial2.parcial_app.ejercicio4Restaurante.model.Producto">
+       <void property="codigo">
+        <string>P005</string>
+       </void>
+       <void property="nombre">
+        <string>Lazaña</string>
+       </void>
+       <void property="precio">
+        <double>30000.0</double>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="programacion3.parcial2.parcial_app.ejercicio4Restaurante.model.Producto">
+       <void property="codigo">
+        <string>P006</string>
+       </void>
+       <void property="nombre">
+        <string>Jugo hit</string>
+       </void>
+       <void property="precio">
+        <double>6000.0</double>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void property="total">
+     <double>36000.0</double>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

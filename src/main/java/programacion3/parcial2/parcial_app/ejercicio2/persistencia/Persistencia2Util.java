@@ -7,8 +7,8 @@ import java.util.List;
 
 public class Persistencia2Util {
 
-    public static final String PROGRAMA_XML_FILE_PATH = "src/main/resources/programacion3/parcial2/parcial_app/ejercicio2.xml";
-    public static final String PRGRAMAS_LOG_PATH = "src/main/resources/programacion3/parcial2/parcial_app/logEjercicio2";
+    public static final String PROGRAMA_XML_FILE_PATH = "src/main/resources/programacion3/parcial2/parcial_app/ejercicio2/ejercicio2.xml";
+    public static final String PRGRAMAS_LOG_PATH = "src/main/resources/programacion3/parcial2/parcial_app/ejercicio2/logEjercicio2";
 
     public List<Programa> cargarProgramasResource() {
         List<Programa> programas = new ArrayList<>();

@@ -97,5 +97,21 @@
     </void>
    </object>
   </void>
+  <void method="add">
+   <object class="programacion3.parcial2.parcial_app.ejercicio2.model.Programa">
+    <void property="adscrito">
+     <string>Universidad del Quindío</string>
+    </void>
+    <void property="codigo">
+     <string>3276</string>
+    </void>
+    <void property="modalidad">
+     <string>Distancia</string>
+    </void>
+    <void property="nombre">
+     <string>Psicología</string>
+    </void>
+   </object>
+  </void>
  </object>
 </java>

@@ -1,0 +1,16 @@
+P001#Pizza#12.0
+P002#Gaseosa Colombiana#13.0
+P003#Hamburguesa#27.0
+P004#Perro Caliente#15.0
+P005#Coca cola#8000.0
+P005#Salchipapa#10.0
+P002#Gaseosa Colombiana#8000.0
+P006#Lazaña#18.0
+P007#Jugo natural#6000.0
+P001#Pizza#6000.0
+P002#Hamburguesa#20000.0
+P003#Coca Cola#8000.0
+P005#Lazaña#30000.0
+P006#Jugo hit#6000.0
+P007#Arroz Chino#50000.0
+P008#Jugo natural#7000.0
