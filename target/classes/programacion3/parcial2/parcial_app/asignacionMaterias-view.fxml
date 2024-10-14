@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="580.0" prefWidth="933.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="programacion3.parcial2.parcial_app.ejercicio5AsignacionMaterias.view.AsignacionMateriasViewController">
+   <children>
+      <ListView fx:id="listViewMaterias" layoutX="55.0" layoutY="97.0" prefHeight="155.0" prefWidth="184.0" />
+      <ListView fx:id="ListViewEstudiantes" layoutX="389.0" layoutY="97.0" prefHeight="155.0" prefWidth="184.0" />
+      <Label layoutX="73.0" layoutY="30.0" text="Materias">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <Label layoutX="382.0" layoutY="30.0" text="Estudiantes">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <ListView fx:id="listViewDocentes" layoutX="711.0" layoutY="97.0" prefHeight="155.0" prefWidth="184.0" />
+      <Label layoutX="722.0" layoutY="22.0" text="Docentes">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="txtAsignaciones" layoutX="255.0" layoutY="354.0" prefHeight="200.0" prefWidth="506.0" />
+      <Button layoutX="444.0" layoutY="317.0" mnemonicParsing="false" onAction="#onAsignarMaterias" text="AsignarMaterias" />
+      <Button layoutX="268.0" layoutY="317.0" mnemonicParsing="false" onAction="#onLimpiarTextArea" text="LimpiarAsociaciones" />
+      <Button layoutX="589.0" layoutY="317.0" mnemonicParsing="false" onAction="#onMostarMateriasAsignadas" text="Mostrar materias asignadas" />
+   </children>
+</AnchorPane>

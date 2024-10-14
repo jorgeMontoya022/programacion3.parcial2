@@ -14,3 +14,6 @@ P005#Lazaña#30000.0
 P006#Jugo hit#6000.0
 P007#Arroz Chino#50000.0
 P008#Jugo natural#7000.0
+P009#Ensalazada dulce#15000.0
+P010#Alitas BBQ#20000.0
+P006#Agua#3500.0

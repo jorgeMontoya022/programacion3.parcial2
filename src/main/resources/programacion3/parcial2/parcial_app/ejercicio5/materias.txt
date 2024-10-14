@@ -1,0 +1,5 @@
+12345@@Infraestructura Computacional@@4@@Teórica
+67890@@Español@@3@@Teórica
+11223@@Matemáticas@@5@@Teórica
+44556@@Programación III@@4@@Teórica-Práctica
+77889@@Sistemas de informacion@@4@@Práctica

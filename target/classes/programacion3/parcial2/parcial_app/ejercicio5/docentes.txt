@@ -1,0 +1,10 @@
+Juan;Pérez;Masculino;35;10999999;juan.perez@uniquindio.edu.co;1234567890;Ingeniería;Ingeniero
+María;Gómez;Femenino;40;10988888;maria.gomez@uniquindio.edu.co;0987654321;Arquitectura;Arquitecta
+Pedro;López;Masculino;50;10977777;pedro.lopez@uniquindio.edu.co;1231231234;Derecho;Abogado
+Laura;Martínez;Femenino;30;10966666;laura.martinez@uniquindio.edu.co;3213213210;Medicina;Médico
+Carlos;Hernández;Masculino;28;10955555;carlos.hernandez@uniquindio.edu.co;4564564567;Ciencias de la Computación;Programador
+Andrés;Rodríguez;Masculino;38;10944444;andres.rodriguez@uniquindio.edu.co;7897897890;Economía;Economista
+Ana;Torres;Femenino;45;10933333;ana.torres@uniquindio.edu.co;6546546543;Biología;Bióloga
+Sofía;Ramírez;Femenino;29;10922222;sofia.ramirez@uniquindio.edu.co;9879879876;Psicología;Psicóloga
+Luis;Molina;Masculino;33;10911111;luis.molina@uniquindio.edu.co;3216549870;Contabilidad;Contador
+Julia;Díaz;Femenino;26;10900000;julia.diaz@uniquindio.edu.co;7894561230;Literatura;Escritora

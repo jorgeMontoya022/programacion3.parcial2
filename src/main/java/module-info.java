@@ -22,4 +22,12 @@ module programacion3.parcial2.parcial_app {
 
     opens programacion3.parcial2.parcial_app.ejercicio4Restaurante.model; // Asegúrate de abrir el paquete
     exports programacion3.parcial2.parcial_app.ejercicio4Restaurante.model;
+
+    opens programacion3.parcial2.parcial_app.ejercicio5AsignacionMaterias.view;
+    exports programacion3.parcial2.parcial_app.ejercicio5AsignacionMaterias.view;
+
+    opens programacion3.parcial2.parcial_app.ejercicio5AsignacionMaterias.model;
+    exports programacion3.parcial2.parcial_app.ejercicio5AsignacionMaterias.model;
+
+
 }

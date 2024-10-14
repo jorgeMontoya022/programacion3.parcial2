@@ -239,11 +239,4 @@ public class GestionPedidosViewController {
         alert.showAndWait();
     }
 
-
-
-
-
-
-
-
 }

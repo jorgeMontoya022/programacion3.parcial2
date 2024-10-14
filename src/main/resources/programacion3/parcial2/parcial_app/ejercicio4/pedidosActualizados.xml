@@ -180,5 +180,82 @@
     </void>
    </object>
   </void>
+  <void method="add">
+   <object class="programacion3.parcial2.parcial_app.ejercicio4Restaurante.model.Pedido" id="Pedido3">
+    <void property="clienteAsociado">
+     <object class="programacion3.parcial2.parcial_app.ejercicio4Restaurante.model.Cliente">
+      <void property="apellido">
+       <string>Jurado Celemín</string>
+      </void>
+      <void property="codigo">
+       <string>C008</string>
+      </void>
+      <void property="documento">
+       <string>18374393345</string>
+      </void>
+      <void property="nombre">
+       <string>Daniel </string>
+      </void>
+      <void property="telefono">
+       <string>3003892480</string>
+      </void>
+      <void property="tipoDocumento">
+       <string>CC</string>
+      </void>
+     </object>
+    </void>
+    <void property="fecha">
+     <object class="java.time.LocalDate" method="of">
+      <int>2024</int>
+      <int>10</int>
+      <int>12</int>
+     </object>
+    </void>
+    <void property="listaProductos">
+     <void method="add">
+      <object class="programacion3.parcial2.parcial_app.ejercicio4Restaurante.model.Producto">
+       <void property="codigo">
+        <string>P009</string>
+       </void>
+       <void property="nombre">
+        <string>Ensalazada dulce</string>
+       </void>
+       <void property="precio">
+        <double>15000.0</double>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="programacion3.parcial2.parcial_app.ejercicio4Restaurante.model.Producto">
+       <void property="codigo">
+        <string>P010</string>
+       </void>
+       <void property="nombre">
+        <string>Alitas BBQ</string>
+       </void>
+       <void property="precio">
+        <double>20000.0</double>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="programacion3.parcial2.parcial_app.ejercicio4Restaurante.model.Producto">
+       <void property="codigo">
+        <string>P006</string>
+       </void>
+       <void property="nombre">
+        <string>Agua</string>
+       </void>
+       <void property="precio">
+        <double>3500.0</double>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void property="total">
+     <double>38500.0</double>
+    </void>
+   </object>
+  </void>
  </object>
 </java>
