@@ -20,6 +20,7 @@ public class ContarVocalesHilo extends Thread {
         System.out.println("Cantidad de vocales: " + numVocales);
     }
 
+    //Metodo para contar las vocales en la palabra
     private int contarVocales(String palabra) {
         int contador = 0;
         String vocales = "aeiouAEIOU";
