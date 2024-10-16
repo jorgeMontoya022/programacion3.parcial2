@@ -1,8 +1,8 @@
 module programacion3.parcial2.parcial_app {
     requires javafx.controls;
     requires javafx.fxml;
-    requires java.logging;
     requires java.desktop;
+    requires com.google.gson;
 
 
     opens programacion3.parcial2.parcial_app to javafx.fxml;
